@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body , html{
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+}
+
+.container{
+    background: linear-gradient(135deg,#8a2be2, #4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    
+}
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 540px;
+}
+.logo{
+    width: 150px;
+    object-fit:contain
+}
+h1{
+    color: #333;
+    font-family: "Dancing Script";
+}
+p,i{
+color: #444;
+}
+i{
+    margin-bottom: 1rem;
+    display: block;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border:solid #ccc 2px;
+}
+button{
+padding: 0.4rem;
+border-radius: 5px;
+border-style:none;
+background-color: #8a2be2;
+color: #ffffff;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+box-shadow: 0 4px 6px  rgba(0, 0, 0, 0.4);
+
+}
+button:hover{
+    background-color: #7a1dd1;
+}
